@@ -53,7 +53,7 @@ Here, we can see that using AutoEncoder regularization, the spectral embedding i
 
 With circles dataset on top and two moons dataset on bottom.  
 
-Some performances has been tracking for different dataset using the same architecture for SpectralNet, SpectralNet with AutoEncoder and AutoEncoder only :
+Some performances has been tracked for different dataset using the same architecture for SpectralNet, SpectralNet with AutoEncoder and AutoEncoder only :
 <table>
   <tr><td colspan="1"><center>Datasets</td><td colspan="3"><center>Circles</td><td colspan="3"><center>Two Moons</td><td colspan="3"><center>MNIST</td></tr>
   <tr><td>Networks</td><td>SpectralNet</td><td>SpectralNetAutoEncoder</td><td>AutoEncoder</td><td>SpectralNet</td><td>SpectralNetAutoEncoder</td><td>AutoEncoder</td><td>SpectralNet</td><td>SpectralNetAutoEncoder</td><td>AutoEncoder</td></tr>
