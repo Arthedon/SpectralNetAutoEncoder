@@ -52,7 +52,7 @@ Here, we can see that using AutoEncoder regularization, the spectral embedding i
 With circles dataset on top and two moons dataset on bottom.  
 
 <table>
-  <tr><td colspan="1"><center>Datasets</td><td colspan="3"><center>Circles</td><td colspan="3"><center>Two Moons</td><td colspan="3"><center>MNIST</td></tr>
+  <tr><td colspan="1"><center>Datasets</center></td><td colspan="3"><center>Circles</center></td><td colspan="3"><center>Two Moons</td><td colspan="3"><center>MNIST</td></tr>
   <tr><td>Networks</td><td>SpectralNet</td><td>SpectralNetAutoEncoder</td><td>AutoEncoder</td><td>SpectralNet</td><td>SpectralNetAutoEncoder</td><td>AutoEncoder</td><td>SpectralNet</td><td>SpectralNetAutoEncoder</td><td>AutoEncoder</td></tr>
   <tr><td><center>ACC</td><td><center>100%</td><td><center>100%</td><td><center>55.9%</td><td><center>100%</td><td><center>100%</td><td><center>87.3%</td><td><center>60.3%</td><td><center>75.1%</td><td><center>80.2%</td></tr>
   <tr><td><center>NMI</td><td><center>99.8%</td><td><center>100%</td><td><center>1%</td><td><center>100%</td><td><center>100%</td><td><center>45%</td><td><center>62.3%</td><td><center>73.5%</td><td><center>73.4%</td></tr>
