@@ -2,7 +2,7 @@
 
 ## Context
 This repository has been done during my last year as an engineer student working on a project on Spectral Embedding.  
-It is mostly based on the SpectralNet github and rewrite some of their functions. From the paper https://arxiv.org/abs/1801.01587 by Shaham U., et al.  
+It is mostly based on the SpectralNet github and rewrite some of their functions.
 Thanks to the SpectralNet formulation of Spectral Clustering using Neural Networks, it is possible to use different methods on the embedding.   
 The goal of this repository is to use an AutoEncoder regularization in order to keep as much information on the embedding as possible.  
 
@@ -52,9 +52,12 @@ Here, we can see that using AutoEncoder regularization, the spectral embedding i
 With circles dataset on top and two moons dataset on bottom.  
 
 <table>
-  <tr><td colspan="1"><center>Datasets</center></td><td colspan="3"><center>Circles</center></td><td colspan="3"><center>Two Moons</td><td colspan="3"><center>MNIST</td></tr>
+  <tr><td colspan="1"><center>Datasets</td><td colspan="3"><center>Circles</td><td colspan="3"><center>Two Moons</td><td colspan="3"><center>MNIST</td></tr>
   <tr><td>Networks</td><td>SpectralNet</td><td>SpectralNetAutoEncoder</td><td>AutoEncoder</td><td>SpectralNet</td><td>SpectralNetAutoEncoder</td><td>AutoEncoder</td><td>SpectralNet</td><td>SpectralNetAutoEncoder</td><td>AutoEncoder</td></tr>
   <tr><td><center>ACC</td><td><center>100%</td><td><center>100%</td><td><center>55.9%</td><td><center>100%</td><td><center>100%</td><td><center>87.3%</td><td><center>60.3%</td><td><center>75.1%</td><td><center>80.2%</td></tr>
   <tr><td><center>NMI</td><td><center>99.8%</td><td><center>100%</td><td><center>1%</td><td><center>100%</td><td><center>100%</td><td><center>45%</td><td><center>62.3%</td><td><center>73.5%</td><td><center>73.4%</td></tr>
   <tr><td><center>α</td><td><center>0</td><td><center>4,5.10^−5</td><td><center>-</td><td><center>0</td><td><center>2,10^-3</td><td><center>-</td><td><center>0</td><td><center>2,275.10^4</td><td><center>-</td></tr>
 </table>
+
+## References
+From the paper https://arxiv.org/abs/1801.01587 by Shaham U., et al. and their GitHub https://github.com/shaham-lab/SpectralNet/tree/main
