@@ -16,6 +16,8 @@ You might need to manually download the munkres and annoy wheels.
 ## Usage example
 ```python
 from SpectralNetAE import SpectralNetAE
+from utils import load_data
+import torch
 
 # Fetch the dataset
 x_train, x_test, y_train, y_test = load_data("two_moons")
