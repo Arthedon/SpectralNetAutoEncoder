@@ -16,7 +16,7 @@ class SpectralNetAELoss(nn.Module):
             x_in (torch.Tensor):               Input of the network
             x_out (torch.Tensor):              Output of the network
             SpectralNetLoss (torch.Tensor):    The SpectralNetLoss at the end of the encoder
-            alpha (float):                    Regularization term (importance of reconstruction in the loss computation)
+            alpha (float):                     Regularization term (importance of reconstruction in the loss computation)
 
         Returns:
             torch.Tensor: The loss
