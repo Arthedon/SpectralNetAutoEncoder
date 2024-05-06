@@ -4,7 +4,7 @@
 This repository has been done during my last year as an engineer student working on a project on Spectral Embedding.  
 It is mostly based on the SpectralNet github and rewrite some of their functions.  
 Thanks to the SpectralNet formulation of Spectral Clustering using Neural Networks, it is possible to use different methods on the embedding.   
-The goal of this repository is to use an AutoEncoder regularization in order to keep as much information on the embedding as possible.  
+The goal of this repository is to use an AutoEncoder regularization on SpectralNet in order to keep as much information on the embedding as possible.  
 
 ## Installation
 You can download dependencies using :  
