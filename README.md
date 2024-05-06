@@ -61,7 +61,7 @@ Some performances has been tracked for different dataset using the same architec
   <tr><td><center>NMI</td><td><center>99.8%</td><td><center>100%</td><td><center>1%</td><td><center>100%</td><td><center>100%</td><td><center>45%</td><td><center>62.3%</td><td><center>73.5%</td><td><center>73.4%</td></tr>
   <tr><td><center>α</td><td><center>0</td><td><center>4,5.10^−5</td><td><center>-</td><td><center>0</td><td><center>2,10^-3</td><td><center>-</td><td><center>0</td><td><center>2,275.10^4</td><td><center>-</td></tr>
 </table>
-ACC : Accuracy; NMI : Normalized Mutual Information  
+ACC : Accuracy; NMI : Normalized Mutual Information; α : Regularization term 
 
 ## References
 From the paper https://arxiv.org/abs/1801.01587 by Shaham U., et al. and their GitHub https://github.com/shaham-lab/SpectralNet/tree/main
